@@ -1,0 +1,120 @@
+@import "bourbon";
+
+
+// FIRST SECTION
+
+@keyframes planeFirst {
+	0% {transform: rotate(-3deg) translate(2px, 0);}
+	100% {transform: rotate(3deg) translate(-2px, 0);}
+}
+
+@keyframes firstCloud {
+	0% {transform: translateX(0);}
+	70% {transform: translateX(90vw); opacity: 1;}
+	71% {transform: translateX(91vw); opacity: 0;}
+	72% {transform: translateX(-30vw); opacity: 0;}
+	100% {transform: translateX(0);}
+}
+@keyframes secondCloud {
+	0% {transform: translateX(0);}
+	40% {transform: translateX(40vw); opacity: 1;}
+	41% {transform: translateX(41vw); opacity: 0;}
+	42% {transform: translateX(-67vw); opacity: 0;}
+	43% {transform: translateX(-66vw); opacity: 1;}
+	100% {transform: translateX(0);}
+}
+@keyframes thirdCloud {
+	0% {transform: translateX(0);}
+	14% {transform: translateX(19vw); opacity: 1;}
+	15% {transform: translateX(19vw); opacity: 0;}
+	16% {transform: translateX(-97vw); opacity: 0;}
+	17% {transform: translateX(-96vw); opacity: 1;}
+	100% {transform: translateX(0);}
+}
+
+@keyframes shipMain {
+	0% {transform: translateX(-50vw);}
+	40% {transform: translateX(8vw);}
+	60% {transform: translateX(32vw);}
+	100% {transform: translateX(35vw);}
+}
+
+@keyframes secondPlain {
+	0% {transform: translate(-49vw, 20vw) scale(.3);}
+	100% {transform: translate(50vw, -25vw) scale(1);}
+}
+
+@keyframes carMove {
+	0% {transform: translateX(45vw);}
+	50% {transform: translateX(-100vw);}
+	51% {transform: translateX(-101vw) scale(-1, 1);}
+	100% {transform: translateX(45vw)  scale(-1, 1);}
+}
+
+@keyframes showText {
+	0% {opacity: 0;transform: translateY(150px) ;}
+	100% {opacity: 1;transform: translateY(0) ;}
+}
+
+@keyframes goDown {
+	0% {transform: translateY(5px) ;}
+	100% {transform: translateY(-5px) ;}
+}
+
+@keyframes krukAnimate {
+	0% {transform: scale(1,1);}
+	10% {transform: scale(1,1.5);}
+	15% {transform: scale(1,1.55);}
+	30% {transform: scale(1,0.7);}
+	50% {transform: translateX(-8.39vw) scale(1,0.7);}
+	55% {transform: translateX(-8.39vw) scale(1,0.7);}
+	70% {transform: translateX(-8.39vw) scale(1,1.1);}
+	80% {transform: translateX(-8.39vw) scale(1,0.8);}
+	100% {transform: translateX(0) scale(1,1);}
+}
+
+@keyframes gruzAnimate {
+	0% {transform: translate(0, 0);}
+	10% {transform: translate(0, 0);}
+	15% {transform: translate(0, 0);}
+	30% {transform: translate(0, -11.5vh);}
+	50% {transform: translate(-8.39vw, -11.5vh);}
+	55% {transform: translate(-8.39vw, -11.5vh);}
+	70% {transform: translate(-8.39vw, -6.4vh);}
+	100% {transform: translate(-8.39vw, -6.4vh);}
+}
+
+
+// @keyframes lettAnim {
+// 	0% {transform: translateY(0);}
+// 	100% {transform: translateY(-30px);}
+// }
+
+// END FIRST SECTION
+
+
+
+@keyframes vashGruz {
+	0% {transform: translateY(0);}
+	100% {transform: translateY(-10%);}
+}
+
+
+
+@keyframes btnPulse {
+	0% {transform: scale(1);}
+	10% {transform: scale(1.08);}
+	20% {transform: scale(1);}
+	30% {transform: scale(1.08);}
+	40% {transform: scale(1);}
+	100% {transform: scale(1);}
+}
+
+@keyframes goUp {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  100% {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px); } 
+}

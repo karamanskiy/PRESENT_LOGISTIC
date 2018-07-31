@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Adver";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Adver/AdverGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/Adver/AdverGothic.woff2") format("woff2"), url("../fonts/Adver/AdverGothic.woff") format("woff"), url("../fonts/Adver/AdverGothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); }

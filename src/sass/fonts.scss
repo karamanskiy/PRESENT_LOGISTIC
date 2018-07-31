@@ -1,0 +1,9 @@
+@import "bourbon";
+
+@include font-face("Adver", "../fonts/Adver/AdverGothic", $file-formats: eot woff2 woff ttf);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Regular", $file-formats: eot woff2 woff ttf);
+// @include font-face("OpenSansBold", "../fonts/OpenSans/OpenSans-Bold", $file-formats: eot woff2 woff ttf);
+
+// @include font-face("NewsCycle", "../fonts/NewsCycle/NewsCycle", $file-formats: eot woff2 woff ttf);
+
+// @import "../libs/font-awesome/scss/font-awesome";
